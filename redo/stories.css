@@ -1,0 +1,269 @@
+
+
+#home{
+    content: "";
+    position: absolute;
+    background: url(images/edu.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 99%;
+    z-index: -1;
+    opacity: 0.89;
+   
+}
+
+.logo{
+    text-align: center;
+    font-size: x-large;
+}
+
+.pro{
+    text-align: center;
+    
+}
+
+.pro1{
+    color: white;
+    font-size: 0.7rem;
+}
+
+.wrapper1 {
+    text-align: center;
+    display: flex;
+    position: absolute;
+    margin-left: 650px;
+    margin-top:80px;
+}  
+
+.diamond0 {
+    width: 70px;
+    height: 70px;
+    background-color: aquamarine;
+    border: solid white;
+    background-size: cover;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+.num {
+    font-size: large;
+    transform: rotate(45deg);
+    padding: 18px;
+
+}
+
+.edu{
+    position: absolute;
+    top: -25px;
+    left: -300px;
+    float: right;
+    text-align: right;
+}
+
+.diamond1 {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    border: solid white;
+    background-size: cover;
+    align-self: center;
+
+    transform: translate(-50%, -50%);
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+.num1 {
+    font-size: large;
+    transform: rotate(45deg);
+    padding: 33px;
+    color: white;
+}
+
+.edu1{
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    float: left;
+    text-align: left;
+    width: 450px;
+}
+
+.diamond2 {
+    width: 70px;
+    height: 70px;
+    background-color: aquamarine;
+    border: solid white;
+    background-size: cover;
+    align-self: center;
+
+    transform: translate(-50%, -50%);
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+.num2 {
+    font-size: large;
+    transform: rotate(45deg);
+    padding: 18px;
+}
+
+.edu2{
+    position: absolute;
+    top: 250px;
+    left: -200px;
+    float: right;
+    text-align: right;
+}
+
+@media only screen and (max-width: 740px){
+    #home{
+        
+        height: 130%;
+        width: 99%;
+        
+       
+    }
+    .logo{
+        text-align: center;
+        font-size: medium;
+        margin-right: 100px;
+    }
+    .pro{
+        text-align: center;
+        font-size: 10px;
+        margin-right: 100px;
+    }
+    .pro1{
+        color: white;
+        font-size: 0.6rem;
+    }
+    .wrapper1 {
+        text-align: center;
+        display: flex;
+        position: absolute;
+        margin-left: 300px;
+        margin-top:80px;
+    }  
+    .diamond0 , .diamond2{
+        width: 50px;
+        height: 50px;
+    }
+    .diamond1 {
+        width: 80px;
+        height: 80px;
+    }
+    .num,.num1,.num2 {
+        font-size:medium ;
+        padding: 22px;
+    }
+    .num,.num2{
+        padding: 12px;
+    }
+    .edu,.edu1,.edu2{
+        font-size: small;
+    }
+    .edu,.edu2{
+        margin-left: 50px;
+    }
+    .edu1{
+      
+        margin-left: -30px;
+    }
+}
+
+
+@media only screen and (max-width: 868px){
+    
+    .logo{
+        text-align: center;
+        font-size: large;
+    }
+    .pro{
+        text-align: center;
+        font-size: 10px;
+    }
+    .pro1{
+        color: white;
+        font-size: 0.6rem;
+    }
+    .wrapper1 {
+        text-align: center;
+        display: flex;
+        position: absolute;
+        margin-left: 300px;
+        margin-top:80px;
+    }  
+}
+
+@media only screen and (max-width: 500px){
+    #home{
+        content: "";
+        position: absolute;
+        background: url(images/edu.jpg) no-repeat center center/cover;
+        height: 140%;
+        width: 120%;
+        z-index: -1;
+        opacity: 0.89;
+       
+    }
+    .logo{
+        color: white;
+        margin-right: 40px;
+    }
+    
+    .pro{
+        color: wheat;
+        margin-right: 40px;
+    }
+}
+
+   /* .diamond0 {
+        width: 60px;
+        height: 60px;
+        margin-right: 150px
+        
+    }
+    .wrapper1 {
+        text-align: center;
+        display: flex;
+        position: absolute;
+        margin-left: 260px;
+        margin-top:80px;
+    }
+    .num {
+        font-size: medium;
+    }
+    .edu{
+       
+        left: -230px;
+        font-size: small;
+        
+    }  
+    .diamond1 {
+        width: 75px;
+        height: 75px;
+       
+    }
+    .num1 {
+        font-size: medium;
+        padding: 22px;
+    }
+    .edu1{
+       
+        left: 60px;
+        font-size: small;
+       
+    }
+    .num2 {
+        font-size: medium;
+        padding: 22px;
+    }
+    .edu2{
+       
+        left: -150px;
+        font-size: small;
+       
+    }
+}

@@ -1,0 +1,213 @@
+#home{
+    content: "";
+    position: absolute;
+    background: url("images/paint.jpg") no-repeat center center/cover;
+    height: 280%;
+    width: 99%;
+    z-index: -1;
+    opacity: 0.4;
+   
+}
+
+.logo{
+    text-align: center;
+    font-size: x-large;
+}
+.pro{
+    text-align: center;
+    
+}
+
+.pro1{
+    color: rgb(8, 7, 7);
+    font-size: 0.7rem;
+}
+.pro9 {
+
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    margin-left: 150px;
+}
+
+.pro10 {
+
+    color: rgb(8, 7, 7);
+    font-size: 20px;
+    text-align: left;
+    margin-left: 150px;
+}
+
+
+.pro11 {
+
+    color: rgb(8, 7, 7);
+    font-size: 20px;
+    text-align: left;
+    margin-left: 250px;
+}
+
+.pmiddle{
+    
+    font-size: 30px;
+    color: rgb(8, 7, 7);
+    text-align: center;
+    margin-left: 150px;
+
+}
+
+.certificate {
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    margin-left: 150px;
+
+
+}
+
+.certificate1 {
+color: black;
+background-color:  gray;
+width: 130px;
+text-decoration: none;
+list-style: none;
+border-radius: 50PX;
+cursor: pointer;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+@media only screen and (max-width: 700px){
+    #home{
+        
+        height: 350%;
+        
+       
+    }
+}
+@media only screen and (max-width: 500px){
+    .logo{
+        text-align: center;
+        font-size:medium ;
+    }
+    .pro{
+        text-align: center;
+        font-size: x-small;
+    }
+    
+    .pro1{
+        color: rgb(8, 7, 7);
+        font-size: 0.6rem;
+    }
+    .pro9 {
+
+        font-size: large;
+        color: black;
+        text-align: left;
+        margin-left: 50px;
+    }
+    .pro10 {
+
+        color: rgb(8, 7, 7);
+        font-size: medium;
+        text-align: left;
+        margin-left: 70px;
+    }
+    .pro11 {
+
+        color: rgb(8, 7, 7);
+        font-size: medium;
+        text-align: left;
+        margin-left: 70px;
+    }
+    .pmiddle{
+    
+        font-size: medium;
+        color: rgb(8, 7, 7);
+        text-align: center;
+        margin-left: 70px;
+    
+    }
+    .certificate {
+        font-size: medium;
+        color: black;
+        text-align: left;
+        margin-left: 70px;
+    
+    
+    }
+    .certificate1 {
+        color: black;
+        background-color:  gray;
+        width: 100px;
+        text-decoration: none;
+        list-style: none;
+        border-radius: 20PX;
+        cursor: pointer;
+        font-size: x-small;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+}
+
+@media only screen and (max-width: 770px){
+    .logo{
+        text-align: center;
+        font-size:medium ;
+    }
+    .pro{
+        text-align: center;
+        font-size: x-small;
+    }
+    
+    .pro1{
+        color: rgb(8, 7, 7);
+        font-size: 0.6rem;
+    }
+    .pro9 {
+
+        font-size: large;
+        color: black;
+        text-align: left;
+        margin-left: 50px;
+    }
+    .pro10 {
+
+        color: rgb(8, 7, 7);
+        font-size: medium;
+        text-align: left;
+        margin-left: 70px;
+    }
+    .pro11 {
+
+        color: rgb(8, 7, 7);
+        font-size: medium;
+        text-align: left;
+        margin-left: 70px;
+    }
+    .pmiddle{
+    
+        font-size: medium;
+        color: rgb(8, 7, 7);
+        text-align: center;
+        margin-left: 70px;
+    
+    }
+    .certificate {
+        font-size: medium;
+        color: black;
+        text-align: left;
+        margin-left: 70px;
+    
+    
+    }
+    .certificate1 {
+        color: black;
+        background-color:  gray;
+        width: 100px;
+        text-decoration: none;
+        list-style: none;
+        border-radius: 20PX;
+        cursor: pointer;
+        font-size: x-small;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+}

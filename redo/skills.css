@@ -1,0 +1,123 @@
+#home{
+    content: "";
+    position: absolute;
+    background: url("images/s5.avif")  ;
+    background-size: cover;
+    height: 100%;
+    width: 99%;
+    z-index: -1;
+    opacity: 0.8;
+   
+}
+
+.logo{
+    text-align: center;
+    font-size: x-large;
+    color: white;
+}
+
+.pro{
+    text-align: center;
+    color: white;
+    
+}
+
+.pro1{
+    color:white;
+    font-size: 0.7rem;
+}
+
+.pro7, .pro8, .pro9 {
+    color:white;
+    text-decoration-color: antiquewhite;
+}
+.pro4, .pro6{
+    margin-top: 70px;
+    color: white;
+    
+}
+
+/*.container{
+    margin-top: 600px;
+    display: flex;
+}
+
+.intrest{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 80px;
+    padding-bottom: 200px;
+    padding-left: 615px;
+    padding-right: 610px;
+}
+
+.pic1{
+    width: 60px;
+    height:60px;
+    margin-left: 100px;
+}
+.pic2{
+    width: 60px;
+    height:60px;
+    margin-left: 180px;
+    
+}
+
+.pic3{
+    width: 60px;
+    height:60px;
+    margin-left: 200px;
+    margin-top: 100px;
+    color: #fff;
+}
+
+.pic5{
+    width: 60px;
+    height:60px;
+    margin-left: 250px;
+    
+}
+
+.cricket, .cricket1,.cricket2,.cricket3{
+    color: white;
+    padding-left: 10px;
+}*/
+
+@media only screen and (max-width: 700px){
+    
+    .pro6{
+        margin-left: -140px;
+    }
+    .pro8,.pro9{
+        margin-left: -140px;
+    }
+    #home{
+        height: 200%;
+    }
+
+}
+@media only screen and (max-width: 868px){
+    #home{
+        height: 200%;
+    }
+}
+@media only screen and (max-width: 992px){
+    #home{
+        height: 200%;
+    }
+}
+
+@media only screen and (max-width: 1200px){
+    #home{
+        height: 200%;
+    }
+}
+
+@media only screen and (max-width: 1300px){
+    #home{
+        height: 200%;
+    }
+}

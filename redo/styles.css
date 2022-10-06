@@ -1,0 +1,199 @@
+
+#home{
+    content: "";
+    position: absolute;
+    background: url(images/i1.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 99%;
+    z-index: -1;
+    opacity: 0.89;
+   
+}
+
+.primary{
+    font-size: 2.8rem;
+    padding: 80px;
+    margin: 50px;
+    text-align: center;
+    color: white;
+}
+
+#logo{
+    background-color: black;
+    color: whitesmoke;
+    width: 120px;
+    padding: 3px;
+    
+    
+    
+}
+
+#navbar ul{
+    display: flex;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.1rem;
+   
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.5s;
+    color: black;
+}
+#navbar ul li a:hover{
+    background-color:lightcoral;
+    
+}
+.white{
+    background-color:lightgray;
+    margin-top: 600px;
+    width: 100%;
+    
+}
+
+.logo1{
+    margin-top: 25px;
+}
+
+.logo2{
+    margin-top: 25px;
+   
+
+}
+
+.logo3{
+    margin-top: 25px;
+    
+
+}
+
+.logo4{
+    margin-top: 25px;
+    
+
+}
+
+.logo5{
+    margin-left: 80px;
+
+}
+
+@media only screen and (max-width: 700px){
+    .white{
+        background-color: whitesmoke
+        ;
+    }
+    .primary{
+        font-size: 1.8rem;
+        
+    }
+
+    #logo{
+        background-color: black;
+        color: whitesmoke;
+        width: 80px;
+        padding: 3px;
+        font-size: 25px;
+    }
+
+    .logo1
+    {
+        font-size: larger;
+    }
+
+    #navbar ul{
+        flex-direction: column;
+        
+    }
+
+    .logo5{
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    .logo6{
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    .logo7{
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    .logo8{
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    .logo9{
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    .logo10{
+        margin-left: 0px;
+        font-size: 15px;
+    }
+  
+    #navbar ul li {
+        list-style: none;
+        font-size: 2rem;
+        padding: 1px 1px;
+       
+    }
+    
+}
+
+@media only screen and (max-width: 868px){
+    
+
+    #logo{
+        background-color: black;
+        color: whitesmoke;
+        width: 80px;
+        padding: 3px;
+        font-size: 15px;
+    }
+    #navbar ul li {
+        list-style: none;
+        font-size: 0.9rem;
+        padding: 1px 1px;
+       
+    }
+    #navbar ul {
+        flex-direction: column;
+    }
+
+
+    .logo5{
+        margin-left: 0px;
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    
+
+    #navbar ul li {
+        list-style: none;
+        font-size: 0.8rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+     
+
+     #navbar ul li {
+        list-style: none;
+        font-size: 0.8rem;
+  }
+  #logo{
+    background-color: black;
+    color: whitesmoke;
+    width: 70px;
+    padding: 3px;
+    font-size: 13px;
+}
+}

@@ -1,0 +1,246 @@
+
+
+#home{
+    content: "";
+    position: absolute;
+    background: url("images/s7.avif") no-repeat center center/cover;
+    height: 100%;
+    width: 99%;
+    z-index: -1;
+    opacity: 0.8;
+   
+}
+
+.logo{
+    text-align: center;
+    font-size: x-large;
+}
+
+.pro{
+    text-align: center;
+    
+}
+
+.pro1{
+    color: white;
+    font-size: 0.7rem;
+}
+
+.head{
+    margin-left: 70px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.pro3{
+    margin-left: 80px;
+    color: black;
+}
+.logo6{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+    font-size: 23px;
+}
+/*.wrapper{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 430px;
+    
+}
+
+.grid{
+   
+     border: solid black;
+     height: 420px;
+     width: 280px;
+     text-align: center;
+     position: relative;
+     left: 00px;
+     bottom: 400px; 
+    
+    
+    }
+
+    .diamond{
+        width: 150px;
+        height:150px;
+        background-color: aquamarine;
+        background-image: url(images/raghav.jpg);
+        background-size: cover;
+        position: relative;
+        top: 70px;
+        left: 140px;
+        border-radius: 20px;
+        transform: translate(-50%,-50%);
+        transform:rotate(-45deg);
+        transform-origin: 0 100%;
+    }*/
+    
+.wrapper {
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+    }
+
+ .grid {
+
+       /* border: solid white;*/
+        height: 420px;
+        width: 280px;
+        margin-top: -400px;
+        margin-left: 600px;
+        background: transparent;
+    
+    }
+.diamond {
+        width: 150px;
+        height: 150px;
+        background-color: aquamarine;
+        background-image: url(images/raghav.jpg);
+        background-size: cover;
+        margin-left: 130px;
+        border-radius: 20px;
+        transform: translate(-50%, -50%);
+        transform: rotate(-45deg);
+        transform-origin: 0 100%;
+    }
+    
+.name {
+        margin-right: 50px;
+        margin-bottom: 800px;
+        color: black;
+        text-align: center;
+        align-items: flex-end;
+    
+}
+
+@media only screen and (max-width: 700px){
+    
+
+    .pro{
+        font-size: 10px;
+    }
+
+    .pro1{
+        color: gray;
+        font-size: 0.5rem;
+    }
+
+    .head{
+        margin-left: 10px;
+        padding: 10px;
+        margin-top: 50px;
+        font-size: 15px;
+    }
+
+    .pro3{
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .grid {
+
+      /*  border: solid white;*/
+        height: 400px;
+        width: 240px;
+        margin-top: -350px;
+        margin-left: 370px;
+        background: transparent;
+    
+    }
+    .diamond {
+        width: 120px;
+        height: 120px;
+        background-color: aquamarine;
+        background-image: url(images/raghav.jpg);
+        background-size: cover;
+        margin-left: 130px;
+        margin-top: 40px;
+        border-radius: 20px;
+        transform: translate(-50%, -50%);
+        transform: rotate(-45deg);
+        transform-origin: 0 100%;
+    }
+    .name {
+        margin-right: 10px;
+        margin-bottom: 800px;
+    
+        text-align: center;
+        align-items: flex-end;
+    }
+    #home{
+        content: "";
+        position: absolute;
+        background: url("images/s7.avif") no-repeat center center/cover;
+        height: 100%;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.8;
+       
+    }
+}
+
+
+@media only screen and (max-width: 868px){
+    
+    .pro{
+        font-size: 10px;
+    }
+    .pro1{
+        color: gray;
+        font-size: 0.5rem;
+    }
+    .head{
+        margin-left: 10px;
+        padding: 10px;
+        margin-top: 50px;
+        font-size: 15px;
+    }
+    .pro3{
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .grid {
+
+        /*  border: solid white;*/
+          height: 400px;
+          width: 240px;
+          margin-top: -350px;
+          margin-left: 370px;
+          background: transparent;
+      
+      }
+      .diamond {
+          width: 120px;
+          height: 120px;
+          background-color: aquamarine;
+          background-image: url(images/raghav.jpg);
+          background-size: cover;
+          margin-left: 130px;
+          margin-top: 40px;
+          border-radius: 20px;
+          transform: translate(-50%, -50%);
+          transform: rotate(-45deg);
+          transform-origin: 0 100%;
+      }
+      .name {
+          margin-right: 10px;
+          margin-bottom: 800px;
+      
+          text-align: center;
+          align-items: flex-end;
+      }
+}
+@media only screen and (max-width: 992px){
+    #home{
+        height: 120%;
+    }  
+
+  
+}
+
+@media only screen and (max-width: 1200px) {
+    #home{
+        height: 120%;
+    }
+}
